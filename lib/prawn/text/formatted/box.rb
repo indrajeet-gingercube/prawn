@@ -163,7 +163,7 @@ module Prawn
           @align = options[:align] ||
             (@direction == :rtl ? :right : :left)
           @vertical_align = options[:valign] || :top
-          @leading = options[:leading] || @document.default_leading
+          @leading = options[:leading] || 3#@document.default_leading
           @character_spacing = options[:character_spacing] ||
             @document.character_spacing
           @mode = options[:mode] || @document.text_rendering_mode
