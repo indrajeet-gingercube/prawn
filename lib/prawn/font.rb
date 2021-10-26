@@ -187,10 +187,10 @@ module Prawn
         },
 
         'Helvetica' => {
-          bold: 'assets/fonts/Helvetica-Bold.ttf',
-          italic: 'assets/fonts/Helvetica-Oblique.ttf',
-          bold_italic: 'assets/fonts/Helvetica-Oblique.ttf',
-          normal: 'assets/fonts/Helvetica.ttf'
+          bold: 'Helvetica-Bold.ttf',
+          italic: 'Helvetica-Oblique.ttf',
+          bold_italic: 'Helvetica-Oblique.ttf',
+          normal: 'Helvetica.ttf'
         }
       )
     end
