@@ -187,10 +187,10 @@ module Prawn
         },
 
         'Helvetica' => {
-          bold: 'Helvetica-Bold.ttf',
-          italic: 'Helvetica-Oblique.ttf',
-          bold_italic: 'Helvetica-Oblique.ttf',
-          normal: 'Helvetica.ttf'
+          bold: "#{Prawn::DATADIR}/fonts/Helvetica-Bold.ttf",
+          italic: "#{Prawn::DATADIR}/fonts/Helvetica-Oblique.ttf",
+          bold_italic: "#{Prawn::DATADIR}/fonts/Helvetica-Oblique.ttf",
+          normal: "#{Prawn::DATADIR}/fonts/Helvetica.ttf"
         }
       )
     end
